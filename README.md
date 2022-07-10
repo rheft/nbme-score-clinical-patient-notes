@@ -37,4 +37,7 @@ Any solution to a data science problem is a time (and comptue resource) expensiv
 3. (Although not required, its highly recommended) Enable a Python Virual Environment  
 4. `pip install -r requirements.txt`  
 5. `uvicorn app.main:app --reload` to start the API
-6. Navigate to `http://127.0.0.1:8000/docs` to read up on the the API is offering, or to test it out.
+6. Navigate to `http://127.0.0.1:8000/docs` to read up on the the API is offering, or to test it out.  
+
+## Other
+Note 1: Kaggle requires terms to be agreed to in order to access the data. Although its likely not an issue to share it here, I haven't. In order to execute cells in the `eda_and_basline.ipynb` notebook, you'll need to download the data from the competition here: https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes/data and put the resulting files in the `data/` directory.  
